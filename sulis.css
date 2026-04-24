@@ -1,52 +1,57 @@
 body {
     background-color: #f1fbff;
     color: #40409b;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 
-.kerek
-{
-    border-radius: 30px;
-    border: 5px white solid;
-}
-
-.minuszmargo
-{
-    margin-top: -60px;
-}
-
-.keretes
-{
-    border-radius: 15px;
-    margin-top: 30px;
-	width: 100%;
-}
-
-.icon
-{
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-}
-
-#narancs_ragyogas
-{
--webkit-filter: drop-shadow(0px 0px 15px orange);
-filter: drop-shadow(0px 0px 15px orange);
-}
-
-
-.kozepre
-{
-    text-align: center;
-}
-
-#baloszlop {
+.bal {
     text-align: center;
     font-size: 20px;
     font-style: italic;
     padding: 20px;
     background-color: #99cde2;
+}
 
+.logo-doboz {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-doboz img {
+    border-radius: 20px;
+}
+
+.logo-szoveg {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e6e6e6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 80%;
+}
+
+.keretes {
+    border: 5px solid white;
+    margin-top: 30px;
+}
+
+.jobb h1 {
+    margin-top: 20px;
+}
+
+.ikonok img {
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#narancs_ragyogas {
+    box-shadow: 0 0 15px orange;
+}
+
+#zold_ragyogas {
+    box-shadow: 0 0 15px green;
 }
